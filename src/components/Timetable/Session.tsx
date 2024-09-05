@@ -8,7 +8,7 @@ interface SessionProps {
 
 const Session: React.FC<SessionProps> = ({ teacher, className, name }) => {
   return (
-    <div className="p-4 bg-slate-300 text-black shadow rounded-md mb-2">
+    <div className="p-4 bg-slate-300 text-black shadow rounded-md mb-2 uppercase">
       <h3 className="text-lg font-bold">{name}</h3>
       <p className="text-sm text-gray-600">Class: {className}</p>
       <p className="text-sm text-gray-600">Teacher: {teacher}</p>

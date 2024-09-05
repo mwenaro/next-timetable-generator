@@ -3,6 +3,7 @@ import React, { useRef} from 'react'
 import { useReactToPrint } from 'react-to-print';
 import Timetable from '@/components/Timetable';
 import useSWR from 'swr'
+import { PrimaryButton } from './courses/PrimaryButton';
 
 
 export default function Page() {
@@ -26,15 +27,15 @@ export default function Page() {
   if(isLoading) return  <h2>Loading .....</h2>
   if(!isLoading && !data?.data) return  <h2>No Data Found</h2>
   return (
-    <div className="min-h-screen bg-slate-200/0.50 p-8 text-black">
-      <div className="flex justify-between items-center mb-4">
+    <div className="w-full min-h-screen bg-slate-200/0.50 p-8 text-black">
+      <div className="w-full flex justify-between items-center mb-4">
         <h1 className="text-2xl font-bold">School Timetable</h1>
-        <button
+        <PrimaryButton
           onClick={handlePrint}
-          className="px-4 py-2 bg-blue-500  rounded shadow"
+          className=""
         >
           Print Timetable
-        </button>
+        </PrimaryButton>
       </div>
       <div ref={timetableRef}>
        { data ? <Timetable tableData={data.data} /> : ''}

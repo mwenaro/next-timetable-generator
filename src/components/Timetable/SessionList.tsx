@@ -25,8 +25,7 @@ const SessionList: React.FC<SessionListProps> = ({ sessions }) => {
         forms = { ...forms, [form]: sn }
     }
     return (
-        <div className="
-         grd-cols-1 gap-1">
+        <div className="w-full">
 
             {Object.values(forms).map((session:any, index) => session?
 
