@@ -7,6 +7,7 @@ export class Controller<T extends Document> {
   constructor(model: Model<T>) {
     dbCon(); // Ensure the DB connection is established
     this.model = model;
+    
     // this.loadDB();
   }
   async loadDB() {
