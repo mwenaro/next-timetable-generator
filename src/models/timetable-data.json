@@ -1,0 +1,698 @@
+{
+    "Monday": {
+        "Period1": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ],
+        "Period2": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ],
+        "Period3": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ]
+    },
+    "Tuesday": {
+        "Period1": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ],
+        "Period2": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ],
+        "Period3": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ]
+    },
+    "Wednesday": {
+        "Period1": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ],
+        "Period2": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ],
+        "Period3": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ]
+    },
+    "Thursday": {
+        "Period1": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ],
+        "Period2": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ],
+        "Period3": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ]
+    },
+    "Friday": {
+        "Period1": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ],
+        "Period2": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ],
+        "Period3": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ]
+    },
+    "Saturday": {
+        "Period1": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ],
+        "Period2": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ],
+        "Period3": [
+            {
+                "className": "form2",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62079",
+                        "name": "willy",
+                        "code": "5",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "his2"
+            },
+            {
+                "className": "form4",
+                "teachers": [
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207c",
+                        "name": "hamisi",
+                        "code": "8",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c6207f",
+                        "name": "osonya",
+                        "code": "11",
+                        "school": "66d12e313940680bb09dc3de"
+                    },
+                    {
+                        "_id": "66d14751b9a4ed9ac4c62081",
+                        "name": "odora",
+                        "code": "13",
+                        "school": "66d12e313940680bb09dc3de"
+                    }
+                ],
+                "name": "agr/bst/com4"
+            }
+        ]
+    }
+}

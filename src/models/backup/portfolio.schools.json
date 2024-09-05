@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "66d12e313940680bb09dc3de"
+  },
+  "name": "dummy school",
+  "email": "school@dummy.com",
+  "password": "123456",
+  "createdAt": {
+    "$date": "2024-08-30T02:28:01.677Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-30T02:28:01.677Z"
+  },
+  "__v": 0
+}]

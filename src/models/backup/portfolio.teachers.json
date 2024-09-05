@@ -1,0 +1,104 @@
+[{
+  "_id": {
+    "$oid": "66d14751b9a4ed9ac4c62075"
+  },
+  "name": "kidada",
+  "code": "1",
+  "school": "66d12e313940680bb09dc3de"
+},
+{
+  "_id": {
+    "$oid": "66d14751b9a4ed9ac4c62076"
+  },
+  "name": "rimba",
+  "code": "2",
+  "school": "66d12e313940680bb09dc3de"
+},
+{
+  "_id": {
+    "$oid": "66d14751b9a4ed9ac4c62077"
+  },
+  "name": "lha",
+  "code": "3",
+  "school": "66d12e313940680bb09dc3de"
+},
+{
+  "_id": {
+    "$oid": "66d14751b9a4ed9ac4c62078"
+  },
+  "name": "beja",
+  "code": "4",
+  "school": "66d12e313940680bb09dc3de"
+},
+{
+  "_id": {
+    "$oid": "66d14751b9a4ed9ac4c62079"
+  },
+  "name": "willy",
+  "code": "5",
+  "school": "66d12e313940680bb09dc3de"
+},
+{
+  "_id": {
+    "$oid": "66d14751b9a4ed9ac4c6207a"
+  },
+  "name": "msyoki",
+  "code": "6",
+  "school": "66d12e313940680bb09dc3de"
+},
+{
+  "_id": {
+    "$oid": "66d14751b9a4ed9ac4c6207b"
+  },
+  "name": "mwanza",
+  "code": "7",
+  "school": "66d12e313940680bb09dc3de"
+},
+{
+  "_id": {
+    "$oid": "66d14751b9a4ed9ac4c6207c"
+  },
+  "name": "hamisi",
+  "code": "8",
+  "school": "66d12e313940680bb09dc3de"
+},
+{
+  "_id": {
+    "$oid": "66d14751b9a4ed9ac4c6207d"
+  },
+  "name": "abraham",
+  "code": "9",
+  "school": "66d12e313940680bb09dc3de"
+},
+{
+  "_id": {
+    "$oid": "66d14751b9a4ed9ac4c6207e"
+  },
+  "name": "ivy",
+  "code": "10",
+  "school": "66d12e313940680bb09dc3de"
+},
+{
+  "_id": {
+    "$oid": "66d14751b9a4ed9ac4c6207f"
+  },
+  "name": "osonya",
+  "code": "11",
+  "school": "66d12e313940680bb09dc3de"
+},
+{
+  "_id": {
+    "$oid": "66d14751b9a4ed9ac4c62080"
+  },
+  "name": "vivian",
+  "code": "12",
+  "school": "66d12e313940680bb09dc3de"
+},
+{
+  "_id": {
+    "$oid": "66d14751b9a4ed9ac4c62081"
+  },
+  "name": "odora",
+  "code": "13",
+  "school": "66d12e313940680bb09dc3de"
+}]
