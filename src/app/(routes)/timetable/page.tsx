@@ -21,7 +21,7 @@ export default function Page() {
 
   const handlePrint = useReactToPrint({
     content: () => timetableRef.current,
-    documentTitle: 'Timetable',
+    documentTitle: 'mds-Timetable-'+new Date().toLocaleString(),
   });
 
   if(isLoading) return  <h2>Loading .....</h2>
