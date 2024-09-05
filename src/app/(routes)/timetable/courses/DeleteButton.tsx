@@ -1,15 +1,20 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import { useRouter } from "next/navigation";
 
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement>{
+  idStr: string;
+  path: string;
+  
+}
 export default function DeleteButton({
   idStr,
   path,
-}: {
-  idStr: string;
-  path: string;
-}) {
+  className,
+  ...others
+}:ButtonProps) {
   const id = JSON.parse(idStr);
   const router = useRouter();
   const handleDelete = async () => {
@@ -22,5 +27,5 @@ export default function DeleteButton({
       alert("Error " + error.mrssage);
     }
   };
-  return <Button className="bg-red-600 text-white" onClick={handleDelete}>Delete</Button>;
+  return <Button variant={'destructive'} size={'lg'} className={cn(' hover:bg-slate-800',className)} onClick={handleDelete}>Delete</Button>;
 }

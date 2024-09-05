@@ -77,7 +77,7 @@ const AddCourse: React.FC<AddCourseProps> = ({
     return <h4>Loading ...</h4>;
 
   return (
-    <div className="p-4 border rounded-lg shadow-md mb-4 bg-slate-400 text-red-700">
+    <div className="p-4 border rounded-lg shadow-md mb-4 bg-slate-400 text-black">
       <h2 className="text-xl font-semibold mb-4">Add Course</h2>
       <div className="mb-4">
         <label className="block mb-2">Course Name</label>
