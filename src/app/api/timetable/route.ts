@@ -3,9 +3,11 @@ import { NextRequest, NextResponse } from "next/server";
 import { dummydata2 } from "./data";
 import { courseService } from "@/contollers/CourseService";
 import { generateTimetable } from "./dataGen";
+import { dbCon } from "@/libs/mongoose/dbCon";
 
 export async function GET(req: NextRequest) {
   try {
+    await dbCon()
     const data = await courseService.getAll();
     const timetableData = generateTimetable(data as any);
     console.log({ data });
