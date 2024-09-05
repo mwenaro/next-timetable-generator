@@ -5,7 +5,7 @@ import { IClass } from "@/models/Class";
 import { ISchool } from "@/models/School";
 import { useRouter } from "next/navigation";
 import { ICourse } from "@/models/Course";
-
+import {PrimaryButton} from './PrimaryButton'
 interface AddCourseProps {
   schools: ISchool[];
   classes: IClass[];
@@ -78,12 +78,12 @@ const AddCourse: React.FC<AddCourseProps> = ({
 
   return (
     <div className="p-4 border rounded-lg shadow-md mb-4 bg-slate-400 text-black">
-      <h2 className="text-xl font-semibold mb-4">Add Course</h2>
+      <h2 className={`text-xl font-bold mb-4`}>{selectedCourse?._id ? 'Update':'Add'} Course Form</h2>
       <div className="mb-4">
         <label className="block mb-2">Course Name</label>
         <input
           type="text"
-          className="w-full p-2 border rounded bg-gray-500"
+          className="w-full p-2 border rounded bg-slate-300"
           value={newCourse.name}
           onChange={(e) => setNewCourse({ ...newCourse, name: e.target.value })}
         />
@@ -91,7 +91,7 @@ const AddCourse: React.FC<AddCourseProps> = ({
       <div className="mb-4">
         <label className="block mb-2">Select School</label>
         <select
-          className="w-full p-2 border rounded bg-gray-500"
+          className="w-full p-2 border rounded bg-slate-300"
           value={newCourse.school}
           onChange={(e) =>
             setNewCourse({ ...newCourse, school: e.target.value })
@@ -108,7 +108,7 @@ const AddCourse: React.FC<AddCourseProps> = ({
       <div className="mb-4">
         <label className="block mb-2">Select Class</label>
         <select
-          className="w-full p-2 border rounded bg-gray-500"
+          className="w-full p-2 border rounded bg-slate-300"
           value={newCourse.class}
           onChange={(e) =>
             setNewCourse({ ...newCourse, class: e.target.value })
@@ -151,17 +151,13 @@ const AddCourse: React.FC<AddCourseProps> = ({
           ))}
         </div>
       </div>
-      <button
+      <PrimaryButton
         onClick={handleAddCourse}
-        className="bg-blue-500 text-blue-600 px-4 py-2 rounded hover:bg-blue-600"
-        style={{
-          backgroundColor: "blue",
-          padding: "0.8rem 0.4rem",
-          color: "white",
-        }}
+        className={`w-full ${selectedCourse?._id? 'bg-orange-700' : ''}`}
+        
       >
         {selectedCourse?._id ? "Update Course" : "Add Course"}
-      </button>
+      </PrimaryButton>
     </div>
   );
 };

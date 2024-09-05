@@ -7,7 +7,7 @@ import { ISchool } from "@/models/School";
 import { IClass } from "@/models/Class";
 import { ITeacher } from "@/models/Teacher";
 import { ICourse } from "@/models/Course";
-import { Button } from "@/components/ui/button";
+import { PrimaryButton } from "./PrimaryButton";
 
 const CoursesPage: React.FC = () => {
   const [schools, setSchools] = useState<ISchool[]>([]);
@@ -64,12 +64,12 @@ const CoursesPage: React.FC = () => {
 
   return (
     <div
-      className="w-full container mx-auto p-4 bg-slate-200"
+      className="w-full container mx-auto p-4 bg-slate-200 flex flex-col"
       style={{ color: "gray" }}
     >
-      <Button className="mr-auto" onClick={() => setIsModalOpen(!isModalOpen)}>
+      <PrimaryButton className="self-end" onClick={() => setIsModalOpen(!isModalOpen)}>
         Add Course
-      </Button>
+      </PrimaryButton>
       <CoursesList courses={courses} setSeletedCourse={setCourse} />
 
       <Modal isOpen={isModalOpen} onClose={closeModal}>
