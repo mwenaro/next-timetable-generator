@@ -1,8 +1,10 @@
 import { schoolService } from "@/contollers/SchoolService";
+import { dbCon } from "@/libs/mongoose/dbCon";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(req: NextRequest) {
   try {
+    await dbCon();
     const data = await schoolService.getAll();
     return NextResponse.json({ data, sucess: true });
   } catch (error: any) {

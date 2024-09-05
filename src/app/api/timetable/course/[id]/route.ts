@@ -1,5 +1,7 @@
+//api/timetable
 import { NextRequest, NextResponse } from "next/server";
 import { CourseService } from "@/contollers/CourseService";
+import { dbCon } from "@/libs/mongoose/dbCon";
 
 const courseService = new CourseService();
 
@@ -9,6 +11,7 @@ type IQuery = {
 
 export async function GET(req: NextRequest, { params: { id } }: IQuery) {
   try {
+    await dbCon()
     const data = await courseService.getById(id);
     return NextResponse.json({ data, sucess: true });
   } catch (error: any) {
@@ -18,6 +21,7 @@ export async function GET(req: NextRequest, { params: { id } }: IQuery) {
 
 export async function PUT(req: NextRequest, { params: { id } }: IQuery) {
   try {
+    await dbCon()
     const body = await req.json();
     const data = await courseService.update(id, body);
     return NextResponse.json({ data, sucess: true }, { status: 201 });

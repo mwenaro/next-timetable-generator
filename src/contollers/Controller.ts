@@ -5,8 +5,8 @@ export class Controller<T extends Document> {
   protected model: Model<T>;
 
   constructor(model: Model<T>) {
-    this.model = model;
     dbCon(); // Ensure the DB connection is established
+    this.model = model;
     // this.loadDB();
   }
   async loadDB() {
@@ -15,18 +15,22 @@ export class Controller<T extends Document> {
   async create(data: Partial<T>): Promise<T> {
     const document = new this.model(data);
 
+    await dbCon();
     return await document.save();
   }
 
   async createMany(data: Partial<T>[]): Promise<any[]> {
+    await dbCon();
     return await this.model.insertMany(data);
   }
 
   async getById(id: string): Promise<T | null> {
+    await dbCon();
     return await this.model.findById(id).exec();
   }
 
   async getAll(): Promise<T[]> {
+    await dbCon();
     return await this.model.find();
   }
 
@@ -35,6 +39,7 @@ export class Controller<T extends Document> {
   }
 
   async delete(id: string): Promise<T | null> {
+    await dbCon();
     return await this.model.findByIdAndDelete(id);
   }
 }

@@ -3,10 +3,8 @@ import { Controller } from "./Controller";
 
 class ClassService extends Controller<IClass> {
   constructor() {
-super(Class)
+    super(Class);
   }
-
-  
 }
 
 export const classService = new ClassService();
