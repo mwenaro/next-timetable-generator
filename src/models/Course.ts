@@ -1,13 +1,14 @@
 import mongoose, { Document, Schema } from 'mongoose';
-import { IClass } from './Class';
-import { ISchool } from './School';
-import { ITeacher } from './Teacher';
+import { IClass, Class } from './Class';
+import { ISchool, School } from './School';
+import { ITeacher, Teacher } from './Teacher';
+
 
 export interface ICourse extends Document {
   name: string;
-  class: IClass['_id'] | IClass;
-  school: ISchool['_id'] | ISchool;
-  teachers: (ITeacher['_id'] | ITeacher)[];
+  class: string | IClass;   // Changed 'clas' to 'class'
+  school: string | ISchool;
+  teachers: (string | ITeacher)[];
   createdAt?: Date;
   updatedAt?: Date;
 }
@@ -16,11 +17,11 @@ const courseSchema: Schema = new Schema({
   name: {
     type: String,
     required: true,
-    unique:true
+    unique: true
   },
-  class: {
+  class: {  // Fixed the field name to 'class'
     type: Schema.Types.ObjectId,
-    ref: 'Class',
+    ref: 'Class',  // Changed 'Clas' to 'Class'
     required: true
   },
   school: {
@@ -33,6 +34,6 @@ const courseSchema: Schema = new Schema({
     ref: 'Teacher'
   }]
 }, { timestamps: true });
-// Pre hook to populate references automatically
 
-export const Course = mongoose.models?.Course || mongoose.model<ICourse>('Course', courseSchema);
+// Export the Course model
+export const Course = mongoose.models.Course || mongoose.model<ICourse>('Course', courseSchema);

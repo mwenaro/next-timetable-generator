@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-
+let isConnected = false;
 // c9XddCqLzuNiDNDQ
 
 function getDbURI(dbname: string) {
@@ -11,22 +11,21 @@ function getDbURI(dbname: string) {
   // return LIVE_URI
 }
 
-// export const db = mongoose.createConnection(MONGO_DB_URI);
 export async function dbCon() {
   // const MONGO_DB_URI = getDbURI('splendid_media_db')
-  const MONGO_DB_URI = getDbURI(process.env.NODE_ENV === 'production' ? 'timetable' :  "portfolio");
-  // Connecting to MongoDB using Mongoose
-  mongoose.connect(MONGO_DB_URI);
-  // mongoose.connect('mongodb://127.0.0.1:27017/mydatabase');
-  const db = mongoose.connection;
+  const MONGO_DB_URI = getDbURI(
+    process.env.NODE_ENV === "production" ? "timetable" : "portfolio"
+  );
+  if (isConnected) {
+    return;
+  }
 
-  db.on("error", (error) => {
+  try {
+    await mongoose.connect(MONGO_DB_URI);
+    isConnected = true;
+    console.log("MongoDB connected");
+  } catch (error) {
     console.error("MongoDB connection error:", error);
-    return false;
-  });
-
-  db.once("open", () => {
-    console.log("Connected to MongoDB database.");
-    return db;
-  });
+    throw error;
+  }
 }

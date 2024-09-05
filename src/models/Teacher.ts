@@ -4,7 +4,7 @@ import { ISchool } from './School';
 export interface ITeacher extends Document {
   name: string;
   code: string;
-  school: ISchool['_id'] | ISchool;
+  school: string | ISchool;
   createdAt?: Date;
   updatedAt?: Date;
 }

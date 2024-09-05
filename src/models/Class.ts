@@ -12,13 +12,14 @@ const classSchema: Schema = new Schema({
   name: {
     type: String,
     required: true,
-    unique:true
+    unique: true
   },
   school: {
     type: Schema.Types.ObjectId,
-    ref: 'School',
+    ref: 'School', // Make sure this matches the exact name in your School model
     required: true
   }
 }, { timestamps: true });
 
-export const Class = mongoose.models?.Class || mongoose.model<IClass>('Class', classSchema);
+// Fix the model name to 'Class'
+export const Class = mongoose.models.Class || mongoose.model<IClass>('Class', classSchema);
