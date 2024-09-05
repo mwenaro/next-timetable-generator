@@ -1,5 +1,7 @@
-import { courseService } from "@/contollers/CourseService";
 import { NextRequest, NextResponse } from "next/server";
+import { CourseService } from "@/contollers/CourseService";
+
+const courseService = new CourseService();
 
 type IQuery = {
   params: { id: string };

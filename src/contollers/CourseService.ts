@@ -2,7 +2,7 @@ import { Course, ICourse } from "@/models/Course";
 import { Controller } from "./Controller";
 
 
-class CourseService extends Controller<ICourse>{
+export class CourseService extends Controller<ICourse>{
   constructor() {
    super(Course)
   }
