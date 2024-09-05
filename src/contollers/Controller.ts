@@ -6,8 +6,8 @@ export class Controller<T extends Document> {
 
   constructor(model: Model<T>) {
     this.model = model;
-    // dbCon(); // Ensure the DB connection is established
-    this.loadDB();
+    dbCon(); // Ensure the DB connection is established
+    // this.loadDB();
   }
   async loadDB() {
     await dbCon();
@@ -19,22 +19,22 @@ export class Controller<T extends Document> {
   }
 
   async createMany(data: Partial<T>[]): Promise<any[]> {
-    return this.model.insertMany(data);
+    return await this.model.insertMany(data);
   }
 
   async getById(id: string): Promise<T | null> {
-    return this.model.findById(id).exec();
+    return await this.model.findById(id).exec();
   }
 
   async getAll(): Promise<T[]> {
-    return await this.model.find().exec();
+    return await this.model.find();
   }
 
   async update(id: string, data: Partial<T>): Promise<T | null> {
-    return this.model.findByIdAndUpdate(id, data, { new: true }).exec();
+    return await this.model.findByIdAndUpdate(id, data, { new: true });
   }
 
   async delete(id: string): Promise<T | null> {
-    return this.model.findByIdAndDelete(id).exec();
+    return await this.model.findByIdAndDelete(id);
   }
 }
