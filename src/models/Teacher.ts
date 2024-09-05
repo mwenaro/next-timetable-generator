@@ -4,7 +4,7 @@ import { ISchool } from './School';
 export interface ITeacher extends Document {
   name: string;
   code: string;
-  school: string | ISchool;
+  school: ISchool['_id'] | ISchool;
   createdAt?: Date;
   updatedAt?: Date;
 }
@@ -17,7 +17,6 @@ const teacherSchema: Schema = new Schema({
   code: {
     type: String,
     required: true,
-    unique: true
   },
   school: {
     type: Schema.Types.ObjectId,
