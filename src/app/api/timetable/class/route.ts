@@ -7,6 +7,7 @@ export async function GET(req: NextRequest) {
   try {
     const data = await classService.getAll();
     // if(!data.length) await classService.createMany(seedindData.classes)
+    
     return NextResponse.json({ data, sucess: true });
   } catch (error: any) {
     return NextResponse.json({ success: false, message: error.message });

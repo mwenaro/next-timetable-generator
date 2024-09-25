@@ -37,7 +37,7 @@ const SessionList: React.FC<SessionListProps> = ({ sessions }) => {
               name={session?.name}
             />
           ) : (
-            <div  className="h-full -w-full flex items-center justify-center">
+            <div  className="h-full w-full flex items-center justify-center">
               x
             </div>
           )}

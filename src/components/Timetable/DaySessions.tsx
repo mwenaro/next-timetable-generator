@@ -8,19 +8,19 @@ interface Props {
 export default function DaySessions({ index, day, periods }: Props) {
   return (
     <div
-      className={`w-full  flex border-black ${
+      className={`w-full  flex flex-col sm:flex-row border-black ${
         index === 0 ? "" : "border-t-2"
       }`}
     >
         {/* Day title */}
       <div
-        className={`p-3 flex items-center justify-center text-lg font-bold w-[200px]
+        className={`w-full p-3 flex flex-col items-center justify-center  font-bold sm:w-[200px]  h-fit bg-slate-300 sm:bg-transparent
                   `}
       >
-        <h3>{day}</h3>
+        <h3 className="text-lg sm:text-base  text-center w-full">{day}</h3>
       </div>
       {/* daily perids */}
-      <div className={`flex-grow grid grid-cols-3 gap-2 `}>
+      <div className={`flex-grow grid grid-cols-1  sm:grid-cols-3 gap-1 md:gap-2 `}>
         {/* cratew period columns */}
         {periods
           ? Object.entries(periods).map(([period, sessions], indx) => (

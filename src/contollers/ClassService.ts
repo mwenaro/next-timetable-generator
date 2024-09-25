@@ -8,3 +8,4 @@ class ClassService extends Controller<IClass> {
 }
 
 export const classService = new ClassService();
+
