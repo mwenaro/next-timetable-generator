@@ -5,9 +5,10 @@ import { NextRequest, NextResponse } from "next/server";
 export async function POST(req: NextRequest) {
   try {
     const requestBody = await req.json();
-    const {success, message, data = {}} = await safaricomDarajaApi.handleTransactionConfirmation(requestBody)
+    const { success, message } =
+      await safaricomDarajaApi.handleTransactionValidation(requestBody);
 
-    return NextResponse.json({success,message, data});
+    return NextResponse.json({ success, message });
   } catch (error: any) {
     return new NextResponse(
       JSON.stringify({ success: false, error: error.message }),
